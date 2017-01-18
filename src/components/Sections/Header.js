@@ -7,7 +7,7 @@ export const Header = () => (
       {/* Logo */}
       <div className='logo'>
         <a href='#'>
-          <img src='img/logo-light.png' />
+          <img src='img/logo-white2.png' />
         </a>
       </div>
       {/* End Logo */}
