@@ -20,7 +20,7 @@ let render = () => {
 
   ReactDOM.render(
     <Provider store={store}>
-      <div style={{ height: '100%' }}>
+      <div>
         <Router history={browserHistory} children={routes} />
       </div>
     </Provider>,

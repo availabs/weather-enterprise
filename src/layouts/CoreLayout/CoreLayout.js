@@ -4,13 +4,8 @@ import './CoreLayout.scss'
 import 'styles/core.scss'
 
 export const CoreLayout = ({ children }) => (
-  <div className='container-fluid'>
-    <div className='row'>
-      <Header />
-    </div>
-    <div className='row core-layout__viewport'>
+  <div>
       {children}
-    </div>
   </div>
 )
 
