@@ -3,22 +3,22 @@ import React from 'react'
 export const Team = () => {
 	var people = [
 		{
-			name: "Mitchell KAPPOS",
-			about: "To portal for some of the world's most high-value net.",
-			pic: 'img/team/01.jpg',
-			job: "( Graphic Designer )"
+			name: "Everett Joseph, PhD",
+			about: "Dr. Joseph is the Director of the The Center of Excellence in Weather Enterprise, as well as the Atmospheric Sciences Research Center at UAlbany, and is an internationally recognized leader in the field of atmospheric sciences.  ",
+			pic: 'img/team/Everett.jpg',
+			job: "( Director )"
 		},
 		{
-			name: "Leonardo da Vinci",
-			about: "To portal for some of the world's most high-value net.",
-			pic: 'img/team/02.jpg',
-			job: "( Front-End Dev )"
+			name: "Chris Thorncroft, PhD",
+			about: "Dr. Thorncroft is Chair of the University at Albany’s Department of Atmospheric and Environmental Sciences, and an internationally recognized leader in the field of atmospheric sciences.",
+			pic: 'img/team/Chris.jpg',
+			job: "( Co-Director )"
 		},
 		{
-			name: "Mitchell KAPPOS",
-			about: "To portal for some of the world's most high-value net.",
-			pic: 'img/team/01.jpg',
-			job: "( Graphic Designer )"
+			name: "Colby Creedon, JD/MBA",
+			about: "Mr. Creedon works to understand weather-related business problems and connect those problems with solutions developed by the University at Albany’s atmospheric sciences research team.",
+			pic: 'img/team/Colby.jpg',
+			job: "( Business Development Director )"
 		}
 	]
 
@@ -31,7 +31,7 @@ export const Team = () => {
 					  <div className='team-item-detail'>
 							<div className='team-item-detail-inner light-color'>
 							  <h5>{person.name}</h5>
-							  <p>{person.about}</p>
+							  <p style={{textAlign:'left'}}>{person.about}</p>
 							  <ul className='social'>
 								<li><a href='https://www.facebook.com/' target='_blank'><i className='fa fa-facebook' /></a></li>
 								<li><a href='https://www.twitter.com/' target='_blank'><i className='fa fa-twitter' /></a></li>
@@ -52,7 +52,7 @@ export const Team = () => {
 	})
 
 	return (
-		<section id='team-people' className='section-padding text-center'>
+		<section id='elements' className='section-padding text-center'>
 		  <div className='container'>
 			<h2 className='page-title'>Our <span className='text-light'>Team</span></h2>
 		  </div>

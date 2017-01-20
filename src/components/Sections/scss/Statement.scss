@@ -1,3 +1,16 @@
+@import 'colors';
+
 .overlay-dark {
 	background-color: #323;
+}
+
+.dark-bg {
+	background-color: #323;
+}
+
+.btn active {
+	transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
 }

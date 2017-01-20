@@ -2,6 +2,7 @@ import React from 'react'
 import Header from 'components/Sections/Header'
 import IntroSlider from 'components/Sections/IntroSlider'
 import About from 'components/Sections/About'
+import Photos from 'components/Sections/Photos'
 import Statement from 'components/Sections/Statement'
 import Team from 'components/Sections/Team'
 import Testimonial from 'components/Sections/Testimonial'
@@ -25,13 +26,10 @@ var LandingView = React.createClass({
             <IntroSlider />
             <Statement />
             <About />
-            <Statement />
+            <Photos />
+            <Services />
             <Team />
             <hr />
-            <Testimonial />
-            <Work />
-            <hr />
-            <Services />
             <ActionBox />
             <section className='map' id='map' />
             <Footer />

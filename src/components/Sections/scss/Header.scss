@@ -3,3 +3,18 @@
 .header.header-prepare {
 	background-color: $primary-opaque;
 }
+
+.logo {
+	padding-top: none;
+	height: 100%px;
+}
+
+@media (max-width: 1024px) {
+	.nav-menu-inner > li {
+		background-color: $primary-opaque;
+	}
+
+	.nav-menu {
+		background: none!important;
+	}
+}

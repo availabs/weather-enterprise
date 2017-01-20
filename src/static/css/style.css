@@ -1785,10 +1785,10 @@ form label.error {
 }
 
     .logo a {
-        width: 180px;
+        width: 250px;
         display: block;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
         -moz-transition: all 0.3s ease 0s;

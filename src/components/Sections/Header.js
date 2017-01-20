@@ -21,13 +21,10 @@ export const Header = () => (
         <ul className='nav-menu-inner'>
           <li><a href='#intro'>Home</a></li>
           <li><a href='#about'>About</a></li>
-          <li><a href='#latest-work'>Work</a></li>
-          <li><a href='#service'>Service</a></li>
-          <li><a href='#pricing'>Pricing</a></li>
-          <li><a href='#client'>Client</a></li>
-          <li><a href='#elements'>Elements</a></li>
+          <li><a href='#latest-work'>WxR&D™</a></li>
+          <li><a href='#service'>WXBIZ™</a></li>
+          <li><a href='#elements'>Team</a></li>
           <li><a href='#contact-us'>Contact</a></li>
-          <li><a className='nav-external all-demos-link' href target='_blank'>Demos</a></li>
         </ul>
       </div>
       {/* End Navigation Menu */}
