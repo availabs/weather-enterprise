@@ -13,23 +13,13 @@ export const Footer = () => (
       {/*End Footer Logo*/}
       {/* Copyright */}
       <p className='copyright mb-25'>
-        © 2015 <a><b>Mazel Template</b></a>. All Rights Reserved.<br />
-        Template by <a href='http://nileforest.com/' target='_blank'><b>nileforest</b></a>
+        Contact<a><b> Colby Creedon</b></a>
       </p>
       {/* Copyright */}
       {/* Social */}
       <ul className='social'>
         <li>
-          <a href='https://www.facebook.com/' target='_blank'><i className='fa fa-facebook' /></a>
-        </li>
-        <li>
-          <a href='https://www.twitter.com/' target='_blank'><i className='fa fa-twitter' /></a>
-        </li>
-        <li>
-          <a href='https://www.linkedin.com/' target='_blank'><i className='fa fa-linkedin' /></a>
-        </li>
-        <li>
-          <a href='https://plus.google.com/' target='_blank'><i className='fa fa-google-plus' /></a>
+          <a href='mailto:ccreedon@albany.edu' target='_blank'><i className='fa fa-paper-plane' /></a>
         </li>
       </ul>
       {/* End Social */}

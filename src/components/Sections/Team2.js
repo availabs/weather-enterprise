@@ -18,8 +18,7 @@ export const Team = () => {
 			name: "Colby Creedon, JD/MBA",
 			about: "Mr. Creedon works to understand weather-related business problems and connect those problems with solutions developed by the University at Albany’s atmospheric sciences research team.",
 			pic: 'img/team/Colby.jpg',
-			job: "( Business Development Director )",
-			email: "mailto:ccreedon@albany.edu"
+			job: "( Business Development Director )"
 		}
 	]
 
@@ -34,7 +33,11 @@ export const Team = () => {
 							  <h5>{person.name}</h5>
 							  <p style={{textAlign:'left'}}>{person.about}</p>
 							  <ul className='social'>
-								<li><a href={person.email} target='_blank'><i className='fa fa-paper-plane' /></a></li>
+								<li><a href='https://www.facebook.com/' target='_blank'><i className='fa fa-facebook' /></a></li>
+								<li><a href='https://www.twitter.com/' target='_blank'><i className='fa fa-twitter' /></a></li>
+								<li><a href='https://www.dribbble.com/' target='_blank'><i className='fa fa-dribbble' /></a></li>
+								<li><a href='https://www.pinterest.com/' target='_blank'><i className='fa fa-pinterest' /></a></li>
+								<li><a href='https://www.behance.net/' target='_blank'><i className='fa fa-behance' /></a></li>
 							  </ul>
 							</div>
 					  </div>

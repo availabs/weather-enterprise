@@ -19,39 +19,39 @@ export const Services = () => (
             <p></p>
           </div>
           <div className='content-box right wow fadeIn' data-wow-delay='0.2s' data-wow-duration='4s'>
-            <div className='icon-right'><i className='icon icon-music-play-button' /></div>
+            <div className='icon-right'><i className='fa fa-pie-chart' /></div>
             <h5 className='features-title1'>Business Intelligence &amp; Analytics</h5>
             <p></p>
           </div>
           <div className='content-box right wow fadeIn' data-wow-delay='0.2s' data-wow-duration='6s'>
-            <div className='icon-right'><i className='icon icon-basic-eye' /></div>
+            <div className='icon-right'><i className='fa fa-tasks' /></div>
             <h5 className='features-title1'>Logistics</h5>
             <p></p>
           </div>
           <div className='content-box right wow fadeIn' data-wow-delay='0.2s' data-wow-duration='8s'>
-            <div className='icon-right'><i className='fa fa-money' /></div>
+            <div className='icon-right'><i className='fa fa-usd' /></div>
             <h5 className='features-title1'>Finance</h5>
             <p></p>
           </div>
         </div>
         <div className='col-md-6 col-sm-6 pt-30 pt-sm-0'>
           <div className='content-box left wow fadeIn' data-wow-delay='0.2s' data-wow-duration='2s'>
-            <div className='icon-left'><i className='icon icon-basic-gear' /></div>
+            <div className='icon-left'><i className='fa fa-cutlery' /></div>
             <h5 className='features-title1'>Agriculture &amp; Food Manufacturing</h5>
             <p></p>
           </div>
           <div className='content-box left wow fadeIn' data-wow-delay='0.4s' data-wow-duration='2s'>
-            <div className='icon-left'><i className='icon icon-basic-cards-diamonds' /></div>
+            <div className='icon-left'><i className='fa fa-truck' /></div>
             <h5 className='features-title1'>Aviation &amp; Freight</h5>
             <p></p>
           </div>
           <div className='content-box left wow fadeIn' data-wow-delay='0.6s' data-wow-duration='2s'>
-            <div className='icon-left'><i className='icon icon-basic-sheet' /></div>
+            <div className='icon-left'><i className='fa fa-ambulance' /></div>
             <h5 className='features-title1'>Healthcare</h5>
             <p></p>
           </div>
           <div className='content-box left wow fadeIn' data-wow-delay='0.8s' data-wow-duration='2s'>
-            <div className='icon-left'><i className='icon icon-basic-headset' /></div>
+            <div className='icon-left'><i className='fa fa-shopping-cart' /></div>
             <h5 className='features-title1'>Retail, Leisure, and Hospitality</h5>
             <p></p>
           </div>
