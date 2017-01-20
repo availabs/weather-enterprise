@@ -10,7 +10,7 @@ export const IntroSlider = () => (
             <div className='introImage' style={{ backgroundImage: 'url("img/full/rain1.jpg")' }} />
             <div className='introContent'>
               <div >
-                <img src="img/logo-white2.png" />
+                <img className='main-logo' src="img/logo-white2.png" />
               </div>
             </div>
             <div className='tp-caption lfb ltt tp-resizeme start'>

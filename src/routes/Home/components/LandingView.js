@@ -26,11 +26,12 @@ var LandingView = React.createClass({
             <IntroSlider />
             <Statement />
             <About />
-            <Photos />
+            <Photos image='img/full/clouds2.jpg'/>
             <Services />
+            <Photos image='img/full/clouds2.jpg' />
             <Team />
             <hr />
-            <ActionBox />
+            <Photos image='img/full/clouds2.jpg'/>
             <section className='map' id='map' />
             <Footer />
           </div>
