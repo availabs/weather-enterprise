@@ -25,14 +25,17 @@ export const Contact = () => (
           <div className='alt-icon-sm-top'><i className='icon icon-basic-headset' /></div>
           <h5 className='features-title'>Contact</h5>
           <p className='contact-link'>
-            <a href='mailto:yourname@domain.com'><span className='text-bold'>Email :</span> yourname@domain.com</a><br />
+            <a href='mailto:yourname@domain.com'>
+              <span className='text-bold'>Email :</span> yourname@domain.com
+            </a>
+            <br />
             <a><span className='text-bold'>Call :</span> +40 (0) 012 345 6789</a>
           </p>
         </div>
       </div>
     </div>
   </section>
-            
+
 )
 
 export default Contact
